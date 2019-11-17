@@ -5,8 +5,7 @@
         <Logo class="w-full" />
       </router-link>
     </div>
-    <div class="p-4 mb-4">
-      <div>
+    <div class="p-4">
         <router-link to="/" active-class="border-2 border-red-600 text-red-600" class="bg-gray-100 border-2 border-gray-400 h-16 w-16 flex items-center justify-center text-2xl font-semibold rounded-lg mb-1 overflow-hidden" exact>
           <div>
             <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
@@ -35,12 +34,15 @@
             </svg>
           </div>
         </router-link>
-      </div>
     </div>
-    <div class="p-4">
-      <div class="cursor-pointer">
-        <router-link to="/user" active-class="border-2 border-red-600 text-red-600" class="bg-gray-100 border-2 border-gray-400 h-16 w-16 flex items-center justify-center text-2xl font-semibold rounded-lg mb-1 overflow-hidden" exact>
-          <!-- <img src="https://avatars3.githubusercontent.com/u/32820112?s=460&v=4" /> -->
+    <div class="px-4 pb-4">
+      <div>
+        <router-link to="/issue" active-class="border-2 border-red-600 text-red-600" class="bg-gray-100 border-2 border-gray-400 h-16 w-16 flex items-center justify-center text-2xl font-semibold rounded-lg mb-1 overflow-hidden" exact>
+          <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+            <path class="heroicon-ui" d="M12 22a10 10 0 110-20 10 10 0 010 20zm0-2a8 8 0 100-16 8 8 0 000 16zm0-9a1 1 0 011 1v4a1 1 0 01-2 0v-4a1 1 0 011-1zm0-4a1 1 0 110 2 1 1 0 010-2z"/>
+          </svg>
+        </router-link>
+        <router-link to="/user" active-class="border-2 border-red-600 text-red-600" class="mt-6 bg-gray-100 border-2 border-gray-400 h-16 w-16 flex items-center justify-center text-2xl font-semibold rounded-lg mb-1 overflow-hidden" exact>
           <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
             <path d="M12 12a5 5 0 110-10 5 5 0 010 10zm0-2a3 3 0 100-6 3 3 0 000 6zm9 11a1 1 0 01-2 0v-2a3 3 0 00-3-3H8a3 3 0 00-3 3v2a1 1 0 01-2 0v-2a5 5 0 015-5h8a5 5 0 015 5v2z"/>
           </svg>
